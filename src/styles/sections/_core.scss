@@ -1,0 +1,22 @@
+main {
+    max-width: 970rem;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 15rem;
+}
+
+.container {
+    margin-inline: auto;
+    background-color: var(--cont-bg);
+    padding-left: 305rem;
+    padding-right: 105rem;
+}
+
+@media screen and (max-width: 1115px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
